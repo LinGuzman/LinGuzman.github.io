@@ -1,0 +1,151 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #02000a, #1888c9);
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #746d77;
+}
+
+.header h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+    padding: 10px;
+}
+
+
+.intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.info {
+    flex: 1;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.image img {
+    max-width: 200px;
+    border: 4px solid #9B59B6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.especialidades {
+    padding: 20px;
+    text-align: center;
+}
+
+.especialidad {
+    display: inline-block;
+    margin: 20px;
+}
+
+.especialidad img {
+    max-width: 100px;
+    border: 4px solid #9B59B6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.proyectos {
+    padding: 20px;
+    text-align: center;
+}
+
+.proyecto {
+    margin: 20px;
+}
+
+.proyecto img {
+    max-width: 300px;
+    border: 4px solid #9B59B6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.logros {
+    padding: 20px;
+    text-align: center;
+}
+
+.logros table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.logros table img {
+    max-width: 200px;
+    height: auto;
+    border: 4px solid #9B59B6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.contactos {
+    padding: 20px;
+    text-align: center;
+}
+
+.social-icons ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons ul li {
+    margin-bottom: 10px;
+}
+
+.social-icons ul li a {
+    text-decoration: none;
+    background-color: #9B59B6;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.social-icons ul li a:hover {
+    background-color: #8e44ad;
+}
+
+
+.intro {
+    background-color: #8e44ad; 
+    padding: 20px;
+    color: #fff; 
+}
+
+.especialidades {
+    background-color: #bdc3c7; 
+    padding: 20px;
+}
+
+.proyectos {
+    background-color: #95a5a6; 
+    padding: 20px;
+}
+
+.logros {
+    background-color: #c39bd3; 
+    padding: 20px;
+}
+
+.contactos {
+    background-color: #34495e; 
+    padding: 20px;
+    color: #fff; 
+}
